@@ -1,6 +1,6 @@
-#实验一：
-##1.创建hello world程序
-###关键代码：
+# 实验一：
+## 1.创建hello world程序
+### 关键代码：
 ~~~
  <TextView
         android:layout_width="wrap_content"
@@ -11,11 +11,11 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 ~~~
-###结果截图：
+### 结果截图：
 <img src="https://github.com/lianxinZ/project1/blob/master/images/project1-1.jpg" width="250" height="450"/>
 
-##2.验证Activity的生命周期
-###关键代码：
+## 2.验证Activity的生命周期
+### 关键代码：
 ~~~
 public class MainActivity extends AppCompatActivity {
 
@@ -59,5 +59,5 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ~~~
-###结果截图：
+### 结果截图：
 <img src="https://github.com/lianxinZ/project1/blob/master/images/project1-2.png" width="800" height="250"/>
